@@ -1,0 +1,5 @@
+name: Koko_JoinMotd
+version: ${project.version}
+main: me.kokored.koko_joinmotd.Koko_JoinMotd
+api-version: 1.16
+authors: [Koko_red7214]

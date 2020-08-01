@@ -1,0 +1,21 @@
+#######################################
+#                                     #
+#       Koko_PlayerJoinAndLeave       #
+#         Author:Koko_red7214         #
+#                                     #
+#######################################
+
+
+#enable motd message
+motd: true
+#motd
+motd-msg:
+  - '&6=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-='
+  - ''
+  - '          &5Thank you for using &6Koko_JoinMotd'
+  - '    &eOur discord server &bhttps://discord.gg/HsfKH99'
+  - ''
+  - '&6=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-='
+
+#enable join msg
+join-msg: true
