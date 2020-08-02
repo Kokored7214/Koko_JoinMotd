@@ -1,8 +1,13 @@
 package me.kokored.koko_joinmotd;
 
+import org.bukkit.ChatColor;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class Koko_JoinMotd extends JavaPlugin {
+public final class Koko_JoinMotd extends JavaPlugin{
 
     @Override
     public void onEnable() {
@@ -12,6 +17,7 @@ public final class Koko_JoinMotd extends JavaPlugin {
         saveDefaultConfig();
 
         getServer().getPluginManager().registerEvents(new PlayerJoin(),this);
+        getCommand("motd").setExecutor(new MotdCmd());
 
     }
 
